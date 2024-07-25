@@ -88,8 +88,10 @@ header .dot {
 }
 
 .projects {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   height: auto;
-  padding: 20px;
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
@@ -101,6 +103,7 @@ header .dot {
 .projects h2 {
   font-size: 20px;
   font-weight: bold;
+  padding: 0;
 }
 
 .project-list {
@@ -154,6 +157,7 @@ header .dot {
   font-size: 0.9em;
   color: #777;
   text-align: center;
+  width: 100%;
 }
 
 section {
