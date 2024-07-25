@@ -105,7 +105,7 @@ header .dot {
 
 .project-list {
   display: inline-block;
-  animation: slide 20s linear infinite;
+  /*animation: slide 20s linear infinite;*/
 }
 
 .project {
@@ -122,6 +122,10 @@ header .dot {
   margin-right: 20px;
   text-align: center;
   line-height: 100px; /* Center text vertically */
+}
+
+.project:hover {
+  background-color: #555;
 }
 
 @keyframes slide {
