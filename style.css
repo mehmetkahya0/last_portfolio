@@ -1,116 +1,123 @@
 :root {
-    font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", serif;
 
-    /* Box Model */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  /* Box Model */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    /* Fonts */
-    --main_header_font_size: 26px;
-    --header_font_weight: 700;
+  /* Fonts */
+  --main_header_font_size: 26px;
+  --header_font_weight: 700;
 
-    --text_font_size: 22px;
-    --text_font_weight: 500;
+  --text_font_size: 22px;
+  --text_font_weight: 500;
 
-    --footer_font_size: 12px;
-    --footer_font_weight: 400;
+  --footer_font_size: 12px;
+  --footer_font_weight: 400;
 
-    --other_font_size: 16px;
-    --other_font_weight: 400;
+  --other_font_size: 16px;
+  --other_font_weight: 400;
 
-    /* Colors */
-    --background_color: #ffeecd;
-    --text_color: #000000;
-    --header_color: #000000;
-    --footer_color: #000000;
-    --other_color: #000000;
-    --link_color: #000000;
-    --link_hover_color: #000000;
-    --button_color: #000000;
-    --button_hover_color: #000000;
-    --button_text_color: #ffffff;
-    --button_text_hover_color: #ffffff;
-    --button_border_color: #000000;
+  /* Colors */
+  --background_color: #ffeecd;
+  --text_color: #000000;
+  --header_color: #000000;
+  --footer_color: #000000;
+  --other_color: #000000;
+  --link_color: #000000;
+  --link_hover_color: #000000;
+  --button_color: #000000;
+  --button_hover_color: #000000;
+  --button_text_color: #ffffff;
+  --button_text_hover_color: #ffffff;
+  --button_border_color: #000000;
 }
 
 body {
-    font-family: "EB Garamond", serif;
-    background-color: var(--background_color);
-    color: var(--text_color);
-    margin: 0;
-    padding: 0;
+  font-family: "EB Garamond", serif;
+  background-color: var(--background_color);
+  color: var(--text_color);
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    font-size: var(--main_header_font_size);
+h1 {
+  font-size: var(--main_header_font_size);
 }
 
-h2{
-    font-size: var(--text_font_size);
+h2 {
+  font-size: var(--text_font_size);
 }
 
-h3{
-    font-size: var(--other_font_size);
+h3 {
+  font-size: var(--other_font_size);
 }
 
 header {
-    text-align: center;
-    height: 75vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--main_header_font_size);
-    font-weight: var(--header_font_weight);
+  text-align: center;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--main_header_font_size);
+  font-weight: var(--header_font_weight);
 }
 
 header .dot {
-    height: 30px;
-    width: 30px;
-    background-color: blue;
-    border-radius: 50%;
-    display: block;
-    margin: 10px;
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+  border-radius: 50%;
+  display: block;
+  margin: 10px;
 }
 
-.projects{
-    text-align: center;
-    padding: 20px;
-    height: 20vh;
+.projects {
+  text-align: center;
+  padding: 20px;
+  height: 20vh;
+  margin-bottom: 25vh;
 }
-
-
 
 .project-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    font-size: var(--other_font_size);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: var(--other_font_size);
+  font-weight: var(--text_font_weight);
 }
 
 .project {
-    background-color: #444;
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #444;
+  color: #fff;
+  max-width: 237px;
+  width: 100%;
+  height: 100px;
+  max-width: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .scroll {
-    font-size: 0.9em;
-    color: #777;
-    margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 section {
-    padding: 20px 50px;
+  padding: 20px 50px;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-
-    color: #000000;
+  text-align: center;
+  padding: 20px;
+  font-weight: bolder;
+  color: #000000;
 }
