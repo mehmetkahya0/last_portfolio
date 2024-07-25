@@ -33,7 +33,7 @@ Make sure you have a modern web browser installed.
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/mehmetkahya0/portfolio-website.git
+   git clone https://github.com/mehmetkahya0/mehmetkahya0.github.io.git
     ```
 
 ## License
