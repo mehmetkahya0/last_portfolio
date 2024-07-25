@@ -34,7 +34,6 @@
   --button_text_hover_color: #ffffff;
   --button_border_color: #000000;
 
-
   --project_background_color: #112d73;
 }
 
@@ -111,7 +110,6 @@ header .dot {
   margin: 1rem 0 !important;
 }
 
-
 .project-list {
   display: inline-block;
   animation: slide 20s linear infinite;
@@ -166,7 +164,6 @@ header .dot {
   text-align: center;
   width: 100%;
   padding: 0;
-
 }
 
 section {
@@ -198,6 +195,8 @@ footer {
   font-weight: bolder;
   color: #000000;
   opacity: 0.8;
+  width: 100% !important;
+  text-align: center !important;
 }
 
 @media (max-width: 800px) {
@@ -217,6 +216,8 @@ footer {
   }
   .projects h2 {
     font-size: 20px;
+    width: 100% !important;
+    text-align: center !important;
   }
 
   .project-list {
@@ -255,6 +256,8 @@ footer {
 
     .projects h2 {
       font-size: 20px;
+      width: 100% !important;
+      text-align: center !important;
     }
 
     .project-list {
@@ -282,9 +285,15 @@ footer {
     margin-top: 5vh;
     font-size: 12px;
     height: auto;
+    width: 100% !important;
+    text-align: center !important;
   }
 
-  footer p{
+  footer {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  footer p {
     font-size: 12px !important;
     font-weight: bolder;
     opacity: 0.8;
