@@ -124,6 +124,11 @@ header .dot {
   line-height: 100px; /* Center text vertically */
 }
 
+.project a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .project:hover {
   background-color: #555;
 }
