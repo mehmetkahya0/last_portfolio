@@ -175,10 +175,6 @@ p {
   font-weight: var(--text_font_weight);
 }
 
-a:hover {
-  color: var(--project_background_color) !important;
-}
-
 .social-media {
   display: flex;
   gap: 20px;
@@ -188,9 +184,8 @@ a:hover {
   color: #000000;
   font-size: 20px;
 }
-
-social-media a:hover {
-  color: blue;
+.social-media a:hover {
+  color: var(--project_background_color) !important;
 }
 
 footer {
