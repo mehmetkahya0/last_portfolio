@@ -1,6 +1,7 @@
 :root {
   font-family: "EB Garamond", serif !important;
 
+  overflow-x: hidden;
   /* Box Model */
   margin: 0;
   padding: 0;
@@ -103,11 +104,13 @@ header .dot {
   margin-bottom: 2rem;
 }
 
-.projects h2 {
-  font-size: 20px;
-  font-weight: bold;
-  padding: 0;
+.subheader {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  padding: 0 !important;
+  margin: 1rem 0 !important;
 }
+
 
 .project-list {
   display: inline-block;
@@ -162,6 +165,8 @@ header .dot {
   color: #777;
   text-align: center;
   width: 100%;
+  padding: 0;
+  
 }
 
 section {
