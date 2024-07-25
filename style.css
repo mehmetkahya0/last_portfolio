@@ -175,6 +175,10 @@ p {
   font-weight: var(--text_font_weight);
 }
 
+a:hover {
+  color: var(--project_background_color) !important;
+}
+
 .social-media {
   display: flex;
   gap: 20px;
