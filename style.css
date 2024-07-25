@@ -1,5 +1,5 @@
 :root {
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", serif !important;
 
   /* Box Model */
   margin: 0;
@@ -8,9 +8,9 @@
 
   /* Fonts */
   --main_header_font_size: 26px;
-  --header_font_weight: 700;
+  --header_font_weight: 800;
 
-  --text_font_size: 22px;
+  --text_font_size: 24px;
   --text_font_weight: 500;
 
   --footer_font_size: 12px;
@@ -113,6 +113,11 @@ header .dot {
 
 section {
   padding: 20px 50px;
+}
+
+p {
+  font-size: var(--other-text_font_size);
+  font-weight: var(--text_font_weight);
 }
 
 footer {
