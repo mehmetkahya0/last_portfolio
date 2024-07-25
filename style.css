@@ -105,7 +105,7 @@ header .dot {
 
 .project-list {
   display: inline-block;
-  /*animation: slide 20s linear infinite;*/
+  animation: slide 20s linear infinite;
 }
 
 .project {
@@ -134,9 +134,17 @@ header .dot {
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
+
+/* Duplicate the content to create a seamless loop */
+.project-list::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
 .scroll {
   font-size: 0.9em;
   color: #777;
