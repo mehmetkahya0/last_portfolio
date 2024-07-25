@@ -166,7 +166,7 @@ header .dot {
   text-align: center;
   width: 100%;
   padding: 0;
-  
+
 }
 
 section {
@@ -284,8 +284,9 @@ footer {
     height: auto;
   }
 
-  footer {
-    font-size: 8px !important;
+  footer p{
+    font-size: 12px !important;
+    font-weight: bolder;
     opacity: 0.8;
   }
 }
