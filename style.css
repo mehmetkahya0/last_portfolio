@@ -32,6 +32,9 @@
   --button_text_color: #ffffff;
   --button_text_hover_color: #ffffff;
   --button_border_color: #000000;
+
+
+  --project_background_color: #000000;
 }
 
 body {
@@ -113,7 +116,7 @@ header .dot {
 
 .project {
   display: inline-block;
-  background-color: #000000;
+  background-color: var(--project_background_color);
   color: #fff;
   width: 237px;
   height: 100px;
@@ -216,7 +219,7 @@ footer {
 
   .project {
     display: inline-block;
-    background-color: #444;
+    background-color: var(--project_background_color);
     color: #fff;
     width: 237px;
     height: 100px;
@@ -254,7 +257,7 @@ footer {
 
     .project {
       display: inline-block;
-      background-color: #444;
+      background-color: var(--project_background_color);
       color: #fff;
       width: 237px;
       height: 100px;
