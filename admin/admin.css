@@ -7,8 +7,6 @@
   padding: 0;
   box-sizing: border-box;
 
-  overflow-x: hidden;
-
   /* Fonts */
   --main_header_font_size: 26px;
   --header_font_weight: 800;
@@ -91,9 +89,10 @@ button,
 
 button:hover,
 .button:hover {
-  background-color: rgb(255, 255, 255) !important;
+  background-color: #ffffff !important;
 }
 
+/* Authentication Header */
 .authHeader {
   background-color: var(--background-dark-color);
   color: var(--white-color);
@@ -108,7 +107,6 @@ label {
   font-weight: bolder;
   margin-bottom: 0.5rem;
 }
-
 
 /* Forms */
 input[type="text"],
@@ -132,7 +130,6 @@ input[type="email"]:focus,
 input[type="password"]:focus,
 textarea:focus {
   outline: none;
-  max-width: 600px;
   border-color: var(--primary-color);
 }
 
