@@ -1,4 +1,5 @@
 TODO LIST
 
-[] Add taffic to analysis
-[] Fix text_align for mobile devices
+[X] Add taffic to analysis
+[X] Fix text_align for mobile devices
+[X] Add contact method
