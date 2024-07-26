@@ -1,11 +1,13 @@
 :root {
   font-family: "EB Garamond", serif !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 
   /* Box Model */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
 
   /* Fonts */
   --main_header_font_size: 26px;
@@ -78,6 +80,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden !important;
 }
 
 h1 {
