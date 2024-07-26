@@ -43,6 +43,27 @@
   color: #fff;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background_color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--project_background_color);
+}
+
 body {
   font-family: "EB Garamond", serif;
   background-color: var(--background_color);
@@ -65,15 +86,13 @@ h3 {
 
 a {
   color: var(--a-text-color);
-  text-decoration:solid;
+  text-decoration: solid;
 }
 
 a:hover {
   color: var(--a-text-color);
   text-decoration: underline;
 }
-
-
 
 header {
   text-align: center;
