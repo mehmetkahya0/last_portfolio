@@ -277,8 +277,19 @@ footer {
   }
 
   .projects h2 {
-    font-size: 20px;
+    font-size: 15px !important;
     width: 100% !important;
+  }
+
+  .subheader {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    padding: 0 !important;
+    margin: 1rem 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    align-self: center !important;
+    justify-content: baseline !important;
   }
 
   .project-list {
@@ -290,6 +301,13 @@ footer {
     width: 237px;
     height: 100px;
     line-height: 100px; /* Center text vertically */
+  }
+
+  .project a {
+    font-size: 12px;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
   .scroll {
