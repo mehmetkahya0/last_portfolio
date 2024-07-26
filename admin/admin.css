@@ -1,20 +1,30 @@
 header {
-  height: 10vh;
+  height: 10vh !important;
+  top: 0 !important;
+  position: relative !important;
 }
 
 .container {
   width: 100%;
+  text-align: center;
+  display: inline-block;
 }
 
 .map {
   width: 100%;
   text-align: center;
-  margin: 20px 0;
+}
+.map img {
+  text-align: center;
 }
 
 .visiter {
   width: 100%;
   margin: 20px 0;
-  background-color: aquamarine;
   text-align: center;
+}
+
+.visiter img {
+  width: 100%;
+  height: 100%;
 }
