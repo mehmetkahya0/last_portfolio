@@ -7,8 +7,6 @@
   padding: 0;
   box-sizing: border-box;
 
-  overflow-x: hidden;
-
   /* Fonts */
   --main_header_font_size: 26px;
   --header_font_weight: 800;
