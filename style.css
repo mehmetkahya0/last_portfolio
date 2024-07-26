@@ -149,7 +149,7 @@ header .dot {
 
 .project-list {
   display: inline-block;
-  animation: slide 20s linear infinite;
+  animation: slide 20s linear infinite running;
 }
 
 .project {
