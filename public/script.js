@@ -1,17 +1,9 @@
-document
-  .getElementById("contactForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
-
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-
-    // Here you can add code to send the form data to your server or an email service
-    console.log("Form submitted:", { name, email, message });
-
-    // Clear the form
-    document.getElementById("contactForm").reset();
-
-    alert("Thank you for your message!");
-  });
+function submitFeedback() {
+    // get textarea contents and send mail using mailto:
+    const feedback = document.getElementById("feedback").value;
+    const subject = "Feedback for Portfolio!";
+    const mailto_link = `mailto:mehmetkahyakas5@gmail.com?subject=${subject}&body=${feedback}`;
+    window.open(mailto_link, "emailWindow");
+    // redirect to index.html
+    alert("Thank you for your feedback!");
+  }
