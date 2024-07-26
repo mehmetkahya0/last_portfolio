@@ -112,6 +112,10 @@ header {
   height: 70vh;
   font-size: var(--main_header_font_size);
   font-weight: var(--header_font_weight);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
 }
 
 header .dot {
@@ -119,9 +123,40 @@ header .dot {
   width: 30px;
   background-color: blue;
   border-radius: 50%;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 10px;
   animation: blink 3s infinite;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid rgb(0, 0, 0); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: 0.05em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 0, 0);
+  }
 }
 
 @keyframes blink {
