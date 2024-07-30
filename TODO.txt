@@ -3,3 +3,6 @@ TODO LIST
 [X] Add taffic to analysis
 [X] Fix text_align for mobile devices
 [X] Add contact method
+[X] Add Sitemap
+[X] Add JSON format for api requests
+[ ] Fix footer margins and add api section on footer
