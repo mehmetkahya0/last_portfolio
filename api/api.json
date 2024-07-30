@@ -18,5 +18,76 @@
     "skill5": "Node.js",
     "skill6": "Python",
     "skill7": "C++"
-  }
+  },
+
+  "projectList": [
+    {
+      "name": "AI Catalog",
+      "url": "https://github.com/mehmetkahya0/AI-Catalog"
+    },
+    {
+      "name": "Temp Mail",
+      "url": "https://github.com/mehmetkahya0/temp-mail"
+    },
+    {
+      "name": "Web Resource Downloader",
+      "url": "https://github.com/mehmetkahya0/Web-Resource-Downloader"
+    },
+    {
+      "name": "Password Algorithms",
+      "url": "https://github.com/mehmetkahya0/PasswordAlgorithms"
+    },
+    {
+      "name": "Personal RSS Feed",
+      "url": "https://github.com/mehmetkahya0/rss"
+    },
+    {
+      "name": "Daily Space Image",
+      "url": "https://github.com/mehmetkahya0/DailySpaceImage"
+    },
+    {
+      "name": "To-Do",
+      "url": "https://github.com/mehmetkahya0/to-do"
+    },
+    {
+      "name": "Bubble Sort Visualization",
+      "url": "https://github.com/mehmetkahya0/bubble-sorting"
+    },
+    {
+      "name": "Random Strangest Locations",
+      "url": "https://github.com/mehmetkahya0/RandomStrangestLocations"
+    },
+    {
+      "name": "Bubble Sort Visualization",
+      "url": "https://github.com/mehmetkahya0/bubble-sorting"
+    },
+    {
+      "name": "To-Do",
+      "url": "https://github.com/mehmetkahya0/to-do"
+    },
+    {
+      "name": "Daily Space Image",
+      "url": "https://github.com/mehmetkahya0/DailySpaceImage"
+    },
+    {
+      "name": "Personal RSS Feed",
+      "url": "https://github.com/mehmetkahya0/rss"
+    },
+    {
+      "name": "Password Algorithms",
+      "url": "https://github.com/mehmetkahya0/PasswordAlgorithms"
+    },
+    {
+      "name": "Web Resource Downloader",
+      "url": "https://github.com/mehmetkahya0/Web-Resource-Downloader"
+    },
+    {
+      "name": "Temp Mail",
+      "url": "https://github.com/mehmetkahya0/temp-mail"
+    },
+    {
+      "name": "AI Catalog",
+      "url": "https://github.com/mehmetkahya0/AI-Catalog"
+    }
+  ]
 }
