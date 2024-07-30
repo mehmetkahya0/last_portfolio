@@ -1,0 +1,22 @@
+{
+  "name": "Mehmet Kahya",
+  "mail": "mehmetkahyakas5@gmail.com",
+
+  "bio": "I am 19 years old and living in Turkey. I'm in my 2nd year of electrical and electronic engineering education I also have been coding for almost 6 years. I am passionate about space, space-rockets, books, robotic coding, and back-end technologies.",
+  "location": "Turkey",
+  "github": "https://github.com/mehmetkahya0/",
+
+  "aboutme": {
+    "para1": "electrical and electronic engineering student"
+  },
+
+  "skills": {
+    "skill1": "HTML",
+    "skill2": "CSS",
+    "skill3": "JavaScript",
+    "skill4": "React",
+    "skill5": "Node.js",
+    "skill6": "Python",
+    "skill7": "C++"
+  }
+}
