@@ -1,0 +1,17 @@
+{
+  "name": "mehmet-kahya-portfolio",
+  "website": "https://mehmetkahya0.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website for Mehmet Kahya",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --open=public",
+    "build": "echo 'No build script defined'"
+  },
+  "author": "Mehmet Kahya",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
