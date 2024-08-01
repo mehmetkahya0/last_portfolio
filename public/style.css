@@ -246,11 +246,19 @@ p {
 }
 
 footer {
-  padding: 20px;
   font-weight: bolder;
   color: #000000;
   opacity: 0.8;
   width: 100% !important;
+  margin-bottom: 1rem !important;
+  text-align: center !important;
+}
+
+footer p {
+  font-size: var(--footer_font_size);
+  font-weight: bolder;
+  opacity: 1;
+  margin: 0.5rem !important;
 }
 
 /* Improved styles for contact-form */
@@ -365,7 +373,6 @@ footer {
 
   .projects {
     height: auto;
-    padding: 20px;
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
@@ -402,7 +409,6 @@ footer {
 @media (max-width: 600px) {
   .projects {
     height: auto;
-    padding: 20px;
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
@@ -416,13 +422,12 @@ footer {
 
   .subheader {
     font-size: 15px !important;
+    left: 0 !important;
+    position: relative !important;
     font-weight: bold !important;
     padding: 0 !important;
-    margin: 1rem 0 !important;
     width: 100% !important;
     text-align: center !important;
-    align-self: center !important;
-    justify-content: baseline !important;
   }
 
   .project-list {
@@ -446,8 +451,10 @@ footer {
   .scroll {
     margin-top: 5vh;
     font-size: 12px;
-    height: auto;
+    height: auto !important;
     width: 100% !important;
+    text-align: center !important;
+    padding: 0 !important;
   }
 
   footer {
