@@ -458,16 +458,16 @@ footer p {
   }
 
   footer {
-    padding: 20px;
+    font-size: 12px !important;
     font-weight: bolder;
     color: #000000;
     opacity: 0.8;
   }
 
   footer p {
-    font-size: 12px !important;
+    font-size: 10px !important;
     font-weight: bolder;
-    opacity: 0.8;
+    opacity: 1;
   }
   .stats {
     display: flex;
