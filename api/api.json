@@ -1,93 +1,150 @@
 {
-  "name": "Mehmet Kahya",
-  "mail": "mehmetkahyakas5@gmail.com",
-
-  "bio": "I am 19 years old and living in Turkey. I'm in my 2nd year of electrical and electronic engineering education I also have been coding for almost 6 years. I am passionate about space, space-rockets, books, robotic coding, and back-end technologies.",
-  "location": "Turkey",
-  "github": "https://github.com/mehmetkahya0/",
-
-  "aboutme": {
-    "para1": "electrical and electronic engineering student"
-  },
-
-  "skills": {
-    "skill1": "HTML",
-    "skill2": "CSS",
-    "skill3": "JavaScript",
-    "skill4": "React",
-    "skill5": "Node.js",
-    "skill6": "Python",
-    "skill7": "C++"
-  },
-
-  "projectList": [
-    {
-      "name": "AI Catalog",
-      "url": "https://github.com/mehmetkahya0/AI-Catalog"
+  "portfolio": {
+    "title": "Mehmet Kahya Portfolio",
+    "header": "Hello, I'm Mehmet Kahya",
+    "projects": [
+      {
+        "name": "AI Catalog",
+        "link": "https://github.com/mehmetkahya0/AI-Catalog"
+      },
+      {
+        "name": "Temp Mail",
+        "link": "https://github.com/mehmetkahya0/temp-mail"
+      },
+      {
+        "name": "Web Resource Downloader",
+        "link": "https://github.com/mehmetkahya0/Web-Resource-Downloader"
+      },
+      {
+        "name": "Password Algorithms",
+        "link": "https://github.com/mehmetkahya0/PasswordAlgorithms"
+      },
+      {
+        "name": "Personal RSS Feed",
+        "link": "https://github.com/mehmetkahya0/rss"
+      },
+      {
+        "name": "Daily Space Image",
+        "link": "https://github.com/mehmetkahya0/DailySpaceImage"
+      },
+      {
+        "name": "To-Do",
+        "link": "https://github.com/mehmetkahya0/to-do"
+      },
+      {
+        "name": "Bubble Sort Visualization",
+        "link": "https://github.com/mehmetkahya0/bubble-sorting"
+      },
+      {
+        "name": "Random Strangest Locations",
+        "link": "https://github.com/mehmetkahya0/RandomStrangestLocations"
+      }
+    ],
+    "about": {
+      "title": "👋 About Me",
+      "description": "- I am 19 years old and living in Turkey. I'm in my 2nd year of electrical and electronic engineering education I also have been coding for almost 6 years. I am passionate about space, space-rockets, books, robotic coding, and back-end technologies."
     },
-    {
-      "name": "Temp Mail",
-      "url": "https://github.com/mehmetkahya0/temp-mail"
+    "skills": {
+      "title": "💻 Skills",
+      "description": "- I have been writing Python continuously for about 6 years and I am still learning various Python frameworks (Flask and MicroPython for processors). I have intermediate knowledge of HTML, CSS, and JavaScript (VanillaJS, Nodejs and beginner level React) and I'm at the beginner level of C++ for Microprocessors. I have been still continuing to learn new languages and improve myself. In addition to this coding knowledge, I have intermediate-advanced proficiency in Fusion360 for 3D modeling & 3D Printing."
     },
-    {
-      "name": "Web Resource Downloader",
-      "url": "https://github.com/mehmetkahya0/Web-Resource-Downloader"
+    "learning": {
+      "title": "👨‍💻 Currently Learning",
+      "description": "- I am currently learning Node.js for back-end technologies. I am also learning how AI models & LLM's work and how to create them. I am also learning how to use Docker and Kubernetes for containerization and orchestration. In addition to these, I'm learning how to use Git and GitHub effectively."
     },
-    {
-      "name": "Password Algorithms",
-      "url": "https://github.com/mehmetkahya0/PasswordAlgorithms"
+    "education": {
+      "title": "📚 Education",
+      "description": "- I graduated from Ismet Koroglu Anatolian High School as the top-ranking student and subsequently gained admission to Izmir Bakırçay University in the Electrical and Electronics Engineering program, which is the one that I am currently a 2nd year student. In addition to these, I am an active member of the Computer Society branch of the IEEE Bakırçay student community."
     },
-    {
-      "name": "Personal RSS Feed",
-      "url": "https://github.com/mehmetkahya0/rss"
+    "contact": {
+      "title": "☎️ Contact Information",
+      "description": "You can contact me quickly via e-mail mehmetkahyakas5@gmail.com",
+      "email": "mehmetkahyakas5@gmail.com"
     },
-    {
-      "name": "Daily Space Image",
-      "url": "https://github.com/mehmetkahya0/DailySpaceImage"
+    "social": {
+      "title": "📱 My Social Media Accounts",
+      "accounts": [
+        {
+          "platform": "Email",
+          "link": "mailto:mehmetkahyakas5@gmail.com",
+          "icon": "fas fa-envelope"
+        },
+        {
+          "platform": "GitHub",
+          "link": "https://github.com/mehmetkahya0",
+          "icon": "fab fa-github"
+        },
+        {
+          "platform": "Instagram",
+          "link": "https://www.instagram.com/mehmettkahya",
+          "icon": "fab fa-instagram"
+        },
+        {
+          "platform": "LinkedIn",
+          "link": "https://www.linkedin.com/in/mehmet-kahya-0861a4286/",
+          "icon": "fab fa-linkedin"
+        }
+      ]
     },
-    {
-      "name": "To-Do",
-      "url": "https://github.com/mehmetkahya0/to-do"
+    "githubStats": {
+      "title": "📊 My GitHub Stats",
+      "stats": [
+        {
+          "type": "profileStats",
+          "imageUrl": "https://github-readme-stats.vercel.app/api?username=mehmetkahya0&show_icons=true&theme=gruvbox_light"
+        },
+        {
+          "type": "streakStats",
+          "imageUrl": "https://github-readme-streak-stats.herokuapp.com/?user=mehmetkahya0&theme=gruvbox_light&hide_border=false"
+        }
+      ]
     },
-    {
-      "name": "Bubble Sort Visualization",
-      "url": "https://github.com/mehmetkahya0/bubble-sorting"
+    "contactForm": {
+      "title": "📧 Contact Me Directly",
+      "form": {
+        "fields": [
+          {
+            "label": "Name",
+            "type": "text",
+            "id": "name",
+            "name": "name",
+            "required": true
+          },
+          {
+            "label": "Message",
+            "type": "textarea",
+            "id": "feedback",
+            "name": "feedback",
+            "required": true
+          }
+        ],
+        "submitButton": {
+          "label": "Send",
+          "onclick": "submitFeedback()"
+        }
+      }
     },
-    {
-      "name": "Random Strangest Locations",
-      "url": "https://github.com/mehmetkahya0/RandomStrangestLocations"
-    },
-    {
-      "name": "Bubble Sort Visualization",
-      "url": "https://github.com/mehmetkahya0/bubble-sorting"
-    },
-    {
-      "name": "To-Do",
-      "url": "https://github.com/mehmetkahya0/to-do"
-    },
-    {
-      "name": "Daily Space Image",
-      "url": "https://github.com/mehmetkahya0/DailySpaceImage"
-    },
-    {
-      "name": "Personal RSS Feed",
-      "url": "https://github.com/mehmetkahya0/rss"
-    },
-    {
-      "name": "Password Algorithms",
-      "url": "https://github.com/mehmetkahya0/PasswordAlgorithms"
-    },
-    {
-      "name": "Web Resource Downloader",
-      "url": "https://github.com/mehmetkahya0/Web-Resource-Downloader"
-    },
-    {
-      "name": "Temp Mail",
-      "url": "https://github.com/mehmetkahya0/temp-mail"
-    },
-    {
-      "name": "AI Catalog",
-      "url": "https://github.com/mehmetkahya0/AI-Catalog"
+    "footer": {
+      "year": "2024",
+      "owner": "Mehmet Kahya",
+      "links": [
+        {
+          "label": "Admin",
+          "url": "admin/auth.html"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mehmetkahya0/mehmetkahya0.github.io"
+        },
+        {
+          "label": "Sitemap",
+          "url": "sitemap.xml"
+        },
+        {
+          "label": "API",
+          "url": "api/api.json"
+        }
+      ]
     }
-  ]
+  }
 }
