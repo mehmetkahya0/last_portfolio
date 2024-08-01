@@ -1,8 +1,10 @@
-TODO LIST
-
-[X] Add taffic to analysis
-[X] Fix text_align for mobile devices
-[X] Add contact method
-[X] Add Sitemap
-[X] Add JSON format for api requests
-[ ] Fix footer margins and add api section on footer
+_____________________________________________________________________
+| TODO LIST                                                         |
+---------------------------------------------------------------------
+[X] Add taffic to analysis                                          |
+[X] Fix text_align for mobile devices                               |
+[X] Add contact method                                              |
+[X] Add Sitemap                                       (31/07/2024)  |
+[X] Add JSON format for api requests                  (31/07/2024)  |       
+[X] Fix footer margins and add api section on footer   (1/08/2024)  |
+--------------------------------------------------------------------|
